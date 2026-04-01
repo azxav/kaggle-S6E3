@@ -1,0 +1,2 @@
+variant_name,run_mode,rows_used,cv_auc,feature_family_list,num_features_train,fit_seconds,status
+base_mixed,submission,594194,0.9118183494977375,base,19,3116.83,ok

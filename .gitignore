@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Local environment / OS files
+.DS_Store
+Thumbs.db
+
+# Notebook / experiment artifacts
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.npy
+*.npz
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Kaggle data and outputs
+# data/
+# outputs/
+# dvae_outputs/
+# dvae_outputs_optuna/
+# submission*.csv
+
+# Large generated result folders in this workspace
+# **/submission/
+# **/submissions/

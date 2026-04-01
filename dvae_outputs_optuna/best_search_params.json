@@ -1,0 +1,45 @@
+{
+  "raw_best": {
+    "score": 0.9161402994216404,
+    "params": {
+      "raw_scaler_name": "robust",
+      "raw_learning_rate": 0.016082317138461862,
+      "raw_max_depth": 4,
+      "raw_min_child_weight": 5.275450186584302,
+      "raw_subsample": 0.7314047095321687,
+      "raw_colsample_bytree": 0.8900581282031752,
+      "raw_gamma": 1.0702599800807677,
+      "raw_reg_alpha": 0.0016155029410048452,
+      "raw_reg_lambda": 2.5411709798607287,
+      "raw_max_bin": 512
+    }
+  },
+  "dvae_best": {
+    "score": 0.9151162685185946,
+    "params": {
+      "dvae_hidden_name": "256x128",
+      "dvae_latent_dim": 40,
+      "dvae_dropout": 0.2423116317482168,
+      "dvae_learning_rate": 0.002603549012095197,
+      "dvae_weight_decay": 2.129964726119655e-06,
+      "dvae_noise_std": 0.010851251170085103,
+      "dvae_mask_prob": 0.16708850280992452,
+      "dvae_beta_max": 0.05072258147942302,
+      "dvae_warmup_ratio": 0.7903432366038118,
+      "dvae_max_epochs": 34,
+      "dvae_patience": 8,
+      "dvae_scaler_name": "robust",
+      "hybrid_learning_rate": 0.05792084384378668,
+      "hybrid_max_depth": 4,
+      "hybrid_min_child_weight": 1.0916832138015782,
+      "hybrid_subsample": 0.7650101918925853,
+      "hybrid_colsample_bytree": 0.919254380610548,
+      "hybrid_gamma": 1.0508320217291864,
+      "hybrid_reg_alpha": 0.013930168823468703,
+      "hybrid_reg_lambda": 0.8000354353343326,
+      "hybrid_max_bin": 256
+    }
+  },
+  "raw_storage": "dvae_outputs_optuna/raw_xgb_optuna.db",
+  "dvae_storage": "dvae_outputs_optuna/dvae_hybrid_optuna.db"
+}

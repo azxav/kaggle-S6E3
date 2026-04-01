@@ -1,0 +1,6 @@
+variant_name,cv_auc,feature_family_list,num_features_train,fit_seconds,status
+base_numeric,0.9079423484130896,base,45,101.534,ok
+base_plus_freq,0.9098989681684978,base|frequency_encoding,64,225.857,ok
+base_plus_binning,0.915474068755255,base|binning,2574,162.193,ok
+base_plus_digits,0.9092881151805575,base|digit_features,69,268.519,ok
+full_feature_stack,0.9119657699493586,base|binning|digit_features|frequency_encoding|external_stats,2712,6821.525,ok
