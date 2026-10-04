@@ -34,13 +34,16 @@ Thumbs.db
 *.pth
 *.onnx
 
-# Kaggle data and outputs
+# Kaggle competition CSVs are large; keep them local if you re-download.
 # data/
-# outputs/
-# dvae_outputs/
-# dvae_outputs_optuna/
-# submission*.csv
 
-# Large generated result folders in this workspace
-# **/submission/
-# **/submissions/
+# Generated submissions and prediction matrices.
+# Score summaries under outputs/ and dvae_outputs*/ stay tracked.
+submission*.csv
+outputs/submissions/
+outputs/**/all_oof_*
+outputs/**/all_test_*
+**/all_oof_*.csv
+**/all_oof_*.parquet
+**/all_test_*.csv
+**/all_test_*.parquet
